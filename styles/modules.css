@@ -1,33 +1,80 @@
-header div{
+#a{
     background-color: #890404
 }
+@media only screen and (min-width: 768px){
+    #a{
+    background-color: #fc0505;
+  }
+}
 
-nav div{
+#b{
     background-color: #895f04;
 }
+@media only screen and (min-width: 768px){
+    #b{
+    background-color: #fc9505;
+    }
+}
 
-section div:first-child{
+#c{
     background-color: #7c8904;
 }
+@media only screen and (min-width: 768px){
+    #c{
+    background-color: #fcdf05;
+    }
+}
 
-section div:nth-child(2){
+#d{
     background-color: #308904;
 }
+@media only screen and (mid-width: 768px){
+    #d{
+        background-color: #05fc19;
+    }
+}
 
-article aside div:first-child{
+#e{
     background-color: #048954;
 }
-article aside div:nth-child(2){
+@media only screen and (min-width: 768px){
+    #e{
+        background-color: #05fc99;
+    }
+}
+
+#f{
     background-color: #047389;
 }
-article aside div:nth-child(3){
+@media only screen and (min-width: 768px){
+    #f{
+        background-color: #05dffc;
+    }
+}
+
+#g{
     background-color: #041a89;
 }
-
-article aside div:nth-child(4){
-    background-color: #710489;
+@media only screen and (min-width: 768px){
+    #g{
+        background-color: #0509fc;
+    }
 }
 
-footer div{
+#h{
+    background-color: #710489;
+}
+@media only screen and (min-width: 768px){
+    #h{
+        background-clip: #b605fc;
+    }
+}
+
+#i{
     background-color: #89045f
+}
+@media only screen and (min-width: 768px){
+    #i{
+        background-color: #fc0578;
+    }
 }
