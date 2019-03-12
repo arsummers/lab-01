@@ -1,0 +1,66 @@
+body{
+    width: 768px
+}
+div{
+    border: 1px black solid;
+    box-sizing: border-box;
+}
+
+ #a{
+        height: 100px;
+        width: 100%;
+    }
+
+@media only screen and (max-width: 480px){
+    #a{
+        height: 75px;
+        width: 100%;
+    }
+}
+
+#b{
+    height: 600px;
+    width: 20.833%;
+}
+@media only screen and (max-width: 480px){
+    #b{
+        height: 150px;
+        width: 100%;
+    }
+}
+
+/* contains #c, # d */
+section div{
+    height: 200px;
+    width: 39.5833%;
+}
+@media only screen and (max-width: 480px){
+    section div{
+        height: 125px;
+        width: 100%;
+    }
+}
+
+/* contains #e, #f, #g, #h */
+article div{
+    height: 250px;
+    width: 19.79166%;
+}
+@media only screen and (max-width: 480px){
+    article div{
+        height: 250px;
+        width: 50%;
+    }
+}
+
+#i{
+    height: 150px;
+    width: 79.166%;
+}
+@media only screen and (max-width: 480px){
+    #i{
+        height: 80px;
+        width: 100%;
+    }
+}
+
