@@ -74,7 +74,7 @@
 #i{
     background-color: #89045f
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 480px){
     #i{
         background-color: #fc0578;
     }
