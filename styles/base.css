@@ -2,28 +2,61 @@ div{
     border: 1px black solid;
     box-sizing: border-box;
 }
-header div{
+
+#a{
     height: 75px;
     width: 480px;
 }
+@media only screen and (min-width: 768px){
+    #a{
+        height: 100px;
+        width: 960px;
+    }
+}
 
-nav div{
+#b{
     height: 150px;
     width: 480px;
 }
+@media only screen and (min-width: 768px){
+    #b{
+        height: 600px;
+        width: 200px;
+    }
+}
 
+/* contains #c, # d */
 section div{
     height: 125px;
     width: 480px;
 }
+@media only screen and (min-width: 768px){
+    section div{
+        height: 200px;
+        width: 380px;
+    }
+}
 
-article aside div{
+/* contains #e, #f, #g, #h */
+article div{
     height: 250px;
     width: 240px;
 }
+@media only screen and (min-width: 768px){
+    article div{
+        height: 250px;
+        width: 190px;
+    }
+}
 
-footer div{
+#i{
     height: 80px;
     width: 480px;
+}
+@media only screen and (min-width: 768px){
+    #i{
+        height: 150px;
+        width: 760px;
+    }
 }
 
