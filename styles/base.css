@@ -1,33 +1,28 @@
+div{
+    border: 1px black solid;
+    box-sizing: border-box;
+}
 header div{
     height: 75px;
     width: 480px;
-    border: 1px black solid;
-    box-sizing: border-box;
 }
 
 nav div{
     height: 150px;
     width: 480px;
-    border: 1px black solid;
-    box-sizing: border-box;
 }
 
 section div{
     height: 125px;
     width: 480px;
-    border: 1px black solid;
-    box-sizing: border-box;
 }
 
 article aside div{
     height: 250px;
     width: 240px;
-    border: 1px black solid;
-    box-sizing: border-box;
 }
 
 footer div{
     height: 80px;
     width: 480px;
-    border: 1px black solid;
 }

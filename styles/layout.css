@@ -1,0 +1,27 @@
+p{
+    text-align: center;
+}
+
+section div:nth-child(2){
+    clear: both;
+}
+
+article aside div:first-child{
+    float: left;
+}
+
+article aside div:nth-child(2){
+    float: right;
+}
+
+article aside div:nth-child(3){
+    float: left;
+}
+
+article aside div:nth-child(4){
+    float: right;
+}
+
+footer div{
+    clear: both;
+}
