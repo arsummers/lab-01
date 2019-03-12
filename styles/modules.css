@@ -1,0 +1,33 @@
+header div{
+    background-color: #890404
+}
+
+nav div{
+    background-color: #895f04;
+}
+
+section div:first-child{
+    background-color: #7c8904;
+}
+
+section div:nth-child(2){
+    background-color: #308904;
+}
+
+article aside div:first-child{
+    background-color: #048954;
+}
+article aside div:nth-child(2){
+    background-color: #047389;
+}
+article aside div:nth-child(3){
+    background-color: #041a89;
+}
+
+article aside div:nth-child(4){
+    background-color: #710489;
+}
+
+footer div{
+    background-color: #89045f
+}
