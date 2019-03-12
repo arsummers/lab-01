@@ -1,7 +1,8 @@
-#a{
-    background-color: #890404
-}
-@media only screen and (min-width: 768px){
+    #a{
+        background-color: #890404
+    }
+
+@media only screen and (max-width: 480px){
     #a{
     background-color: #fc0505;
   }
@@ -10,7 +11,7 @@
 #b{
     background-color: #895f04;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 480px){
     #b{
     background-color: #fc9505;
     }
@@ -19,7 +20,7 @@
 #c{
     background-color: #7c8904;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 480px){
     #c{
     background-color: #fcdf05;
     }
@@ -28,25 +29,25 @@
 #d{
     background-color: #308904;
 }
-@media only screen and (mid-width: 768px){
+@media only screen and (max-width: 480px){
     #d{
-        background-color: #05fc19;
+        background-color: #d8ffd9;
     }
 }
 
 #e{
     background-color: #048954;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 480px){
     #e{
-        background-color: #05fc99;
+        background-color: #05fc09;
     }
 }
 
 #f{
     background-color: #047389;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 480px){
     #f{
         background-color: #05dffc;
     }
@@ -55,7 +56,7 @@
 #g{
     background-color: #041a89;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 480px){
     #g{
         background-color: #0509fc;
     }
@@ -64,7 +65,7 @@
 #h{
     background-color: #710489;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 480px){
     #h{
         background-clip: #b605fc;
     }
@@ -73,7 +74,7 @@
 #i{
     background-color: #89045f
 }
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
     #i{
         background-color: #fc0578;
     }
