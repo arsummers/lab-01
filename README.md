@@ -15,3 +15,14 @@ all have 1px border
 remember border-sizing: border-box
 all letters should be centered
 each box should have a different color
+
+#Feature 2- make into grid
+Number and name of feature: Feature 2- make grid
+
+Estimate of time needed to complete: 1.5 hours
+
+Start time: 1:20
+
+Finish time: stopped work at 1:55, incomplete
+
+Actual time needed to complete: _____
