@@ -1,81 +1,111 @@
-    #a{
+#a{
         background-color: #890404
     }
-
-@media only screen and (max-width: 480px){
-    #a{
-    background-color: #fc0505;
-  }
-}
 
 #b{
     background-color: #895f04;
 }
-@media only screen and (max-width: 480px){
-    #b{
-    background-color: #fc9505;
-    }
-}
 
 #c{
-    background-color: #7c8904;
-}
-@media only screen and (max-width: 480px){
-    #c{
-    background-color: #fcdf05;
-    }
+    background-color: #bfb90f;
 }
 
 #d{
     background-color: #308904;
 }
-@media only screen and (max-width: 480px){
-    #d{
-        background-color: #d8ffd9;
-    }
-}
+
 
 #e{
     background-color: #048954;
-}
-@media only screen and (max-width: 480px){
-    #e{
-        background-color: #05fc09;
-    }
 }
 
 #f{
     background-color: #047389;
 }
-@media only screen and (max-width: 480px){
-    #f{
-        background-color: #05dffc;
-    }
-}
+
 
 #g{
     background-color: #041a89;
 }
-@media only screen and (max-width: 480px){
-    #g{
-        background-color: #0509fc;
-    }
-}
+
 
 #h{
     background-color: #710489;
 }
-@media only screen and (max-width: 480px){
-    #h{
-        background-clip: #b605fc;
-    }
-}
+
 
 #i{
     background-color: #89045f
 }
-@media only screen and (max-width: 480px){
-    #i{
-        background-color: #fc0578;
+
+/* tablet view */
+@media only screen and (min-width: 768px){
+    p{
+        color: red;
     }
+    #a{
+        background-color: #ffffff;
+      }
+
+    #b{
+        background-color: #c4c5c6;
+        }
+
+     #c{
+            background-color: #999999;
+        }
+
+    #d{
+            background-color: #767777;
+        }
+    #e{
+            background-color: #4b4c4c;
+        }
+     #f{
+            background-color: #353535;
+        }
+    #g{
+            background-color: #000000;
+        }
+     #h{
+            background-color: #2052a3;
+        }
+    #i{
+            background-color:#699cef;
+        }
+        
 }
+/* desktop view */
+
+@media only screen and (min-width: 960px){
+    p{
+        color: black;
+    }
+    #a{
+    background-color: #fc0505;
+  }
+    #b{
+    background-color: #fc9505;
+    }
+    #c{
+        background-color: #fcdf05;
+        }
+    #d{
+            background-color: #d8ffd9;
+        }
+     #e{
+            background-color: #05fc09;
+        }
+    #f{
+            background-color: #05dffc;
+        }
+    #g{
+            background-color: #0509fc;
+        }
+    #h{
+            background-clip: #b605fc;
+        }
+    #i{
+            background-color: #fc0578;
+        }
+    }
