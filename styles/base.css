@@ -77,6 +77,11 @@ body{
     height: 767px;
 }
 
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
 div{
     border: 1px black solid;
     box-sizing: border-box;
@@ -95,6 +100,7 @@ div{
 #c, #d{
     width: 480px;
     height: 125px;
+
 }
 
 #e, #f, #g, #h{
