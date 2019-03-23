@@ -72,13 +72,13 @@ div{
     }
 }  */
 
-@media only screen and (max-width: 480px){
+
 body{
     width: 480px;
     height: 767px;
 }
 
-.flex-container{
+.container{
     display: flex;
     flex-flow: row wrap;
 }
@@ -111,5 +111,4 @@ div{
 #i{
     width: 480px;
     height: 80px;
-}
 }
