@@ -12,6 +12,8 @@ body{
   grid-template-rows: repeat(768, 1px);
 } 
 
+
+
 div{
   border: 1px black solid;
   box-sizing: border-box;

@@ -1,50 +1,16 @@
-/* p{
-    text-align: center;
-}
-#a p{
-    padding-top: 45px;
-}
-@media only screen and (max-width: 480px){
-    #a p{
-    padding-top: 30px;
-    }
+ 
+p{
+    text-align: center;  
+    padding: 50px;
+    box-sizing: border-box;
 }
 
 #b p{
-    padding-top: 290px;
-}
-@media only screen and (max-width: 480px){
-    #b p{
-        padding-top: 75px;
-    }
-}
-
-section div p{
     padding-top: 100px;
 }
-@media only screen and (max-width: 480px){
-    section div p{
-        padding-top: 62.5px;
+
+@media screen and (min-width: 780px){
+#b p{
+    padding-top: 250px;
     }
 }
-
-article div p{
-    padding-top: 125px;
-}
-@media only screen and (max-width: 480px){
-    article div p{
-        padding-top: 120px;
-    }
-}
-
-#i p{
-    padding-top: 75px;
-}
-@media only screen and (max-width: 480px){
-    #i p{
-        padding-top: 40px;
-    }
-}
- */
-
-
